@@ -1,11 +1,11 @@
 // Reference to HTML elements
-const  = document.querySelector("#");
-const  = document.querySelector("#");
-const  = document.querySelector("#");
+const inputField = document.querySelector("#inputField");
+const list = document.querySelector("#list");
+const addButton = document.querySelector("#addButton");
 
 // Function to add a new item to the list
 function addItem() {
-  const  = .value;
+  const inputField = .value;
 
     // Create a new list item and give content
     const  = document.createElement("");
